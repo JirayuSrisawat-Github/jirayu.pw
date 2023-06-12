@@ -14,15 +14,10 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     AppComponent,
     HeaderComponent,
     HeroComponent,
-    AboutMeComponent
+    AboutMeComponent,
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    BrowserAnimationsModule,
-    MatIconModule
-  ],
+  imports: [BrowserModule, FormsModule, BrowserAnimationsModule, MatIconModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
