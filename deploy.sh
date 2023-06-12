@@ -1,3 +1,5 @@
+yarn
+
 rm -rf .angular
 prettier -w "**/*.*"
 
