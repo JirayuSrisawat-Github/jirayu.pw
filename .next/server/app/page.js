@@ -305,11 +305,11 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 /***/ 5832:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7287))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2553))
 
 /***/ }),
 
-/***/ 7287:
+/***/ 2553:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -326,6 +326,33 @@ var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(8421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+;// CONCATENATED MODULE: ./src/components/Hero.tsx
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+function Hero() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]",
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: "/profile.png",
+                alt: "Jirayu.pw Logo",
+                className: "rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]",
+                priority: true,
+                width: 128,
+                height: 128
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                className: "my-2 text-2xl cursor-text",
+                children: "Jirayu Srisawat"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                className: "mt-2 text-xl cursor-text",
+                children: "จิรายุ ศรีสวัสดิ์"
+            })
+        ]
+    });
+}
+
 ;// CONCATENATED MODULE: ./src/config/aboutme.ts
 /* harmony default export */ const aboutme = ([
     {
@@ -370,6 +397,49 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
     }
 ]);
 
+;// CONCATENATED MODULE: ./src/components/AboutMe.tsx
+
+
+function AboutMe() {
+    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "container mx-auto pb-16",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    className: "bg-[url(/banner.png)] bg-center bg-cover rounded object-fit my-2 mx-auto w-[95%]",
+                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "backdrop-blur-sm w-full h-full p-6",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                                className: "text-4xl font-bold mx-4 mt-4 mb-1 cursor-text text-[#ffa42d]",
+                                children: "About me"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                className: "mx-8 mb-4 text-xl cursor-text",
+                                children: "เกี่ยวกับฉัน"
+                            })
+                        ]
+                    })
+                }),
+                aboutme.map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: "shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] bg-[#1f1f1f] scale-[0.98] hover:bg-[#ffa42d] hover:scale-[1]",
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                htmlFor: data.label,
+                                children: data.label
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                id: data.label,
+                                className: "mx-2",
+                                children: data.description
+                            })
+                        ]
+                    }, i))
+            ]
+        })
+    });
+}
+
 ;// CONCATENATED MODULE: ./src/app/page.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
@@ -377,54 +447,8 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 function Home() {
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
         children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "/profile.png",
-                        alt: "Jirayu.pw Logo",
-                        className: "rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]",
-                        priority: true,
-                        width: 128,
-                        height: 128
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        className: "my-2 text-2xl cursor-text",
-                        children: "Jirayu Srisawat"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: "my-2 text-xl cursor-text",
-                        children: "จิรายุ ศรีสวัสดิ์"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container mx-auto pb-16",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                        className: "text-4xl font-bold mx-4 mt-4 mb-1 cursor-text text-[#ffa42d]",
-                        children: "About me"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                        className: "mx-8 mb-4 text-xl cursor-text",
-                        children: "เกี่ยวกับฉัน"
-                    }),
-                    aboutme.map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] bg-[#1f1f1f] scale-[0.98] hover:bg-[#ffa42d] hover:scale-[1]",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                    htmlFor: data.label,
-                                    children: data.label
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    id: data.label,
-                                    className: "mx-2",
-                                    children: data.description
-                                })
-                            ]
-                        }, i))
-                ]
-            })
+            /*#__PURE__*/ jsx_runtime_.jsx(Hero, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(AboutMe, {})
         ]
     });
 } // #ffa42d
@@ -461,7 +485,7 @@ function RootLayout({ children  }) {
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("head", {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "shortcut icon",
-                    type: "image/*",
+                    type: "image/png",
                     href: "/profile.png"
                 })
             }),

@@ -16,7 +16,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="th">
       <head>
-        <link rel="shortcut icon" type="image/*" href="/profile.png" />
+        <link rel="shortcut icon" type="image/png" href="/profile.png" />
       </head>
       <body
         className={
