@@ -1,6 +1,5 @@
 yarn
 
-rm -rf .angular
 prettier -w "**/*.*"
 
 yarn build
