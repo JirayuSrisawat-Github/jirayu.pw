@@ -405,21 +405,13 @@ function AboutMe() {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "container mx-auto pb-16",
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "bg-[url(/banner.png)] bg-center bg-cover rounded object-fit my-2 mx-auto w-[95%]",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "backdrop-blur-sm w-full h-full p-6",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                                className: "text-4xl font-bold mx-4 mt-4 mb-1 cursor-text text-[#ffa42d]",
-                                children: "About me"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                className: "mx-8 mb-4 text-xl cursor-text",
-                                children: "เกี่ยวกับฉัน"
-                            })
-                        ]
-                    })
+                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                    className: "text-4xl font-bold mx-4 mt-4 mb-1 cursor-text text-[#ffa42d]",
+                    children: "About me"
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    className: "mx-8 mb-4 text-xl cursor-text",
+                    children: "เกี่ยวกับฉัน"
                 }),
                 aboutme.map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         className: "shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] bg-[#1f1f1f] scale-[0.98] hover:bg-[#ffa42d] hover:scale-[1]",
