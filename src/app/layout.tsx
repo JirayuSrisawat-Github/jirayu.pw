@@ -16,11 +16,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="th">
       <head>
-        <link
-          rel="shortcut icon"
-          type="image/*"
-          href="https://cdn.jirayu.pw/jirayu_logo.png"
-        />
+        <link rel="shortcut icon" type="image/*" href="/profile.png" />
       </head>
       <body
         className={

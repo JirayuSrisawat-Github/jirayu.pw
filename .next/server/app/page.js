@@ -361,6 +361,10 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
         description: "มะม่วง"
     },
     {
+        label: "ขนมหวานที่ชอบ",
+        description: "โดนัท"
+    },
+    {
         label: "สิ่งที่ชอบ",
         description: "อาจจะเป็นคุณ :)"
     }
@@ -377,7 +381,7 @@ function Home() {
                 className: "bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                        src: "https://cdn.jirayu.pw/jirayu_logo.png",
+                        src: "/profile.png",
                         alt: "Jirayu.pw Logo",
                         className: "rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]",
                         priority: true,
@@ -458,7 +462,7 @@ function RootLayout({ children  }) {
                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
                     rel: "shortcut icon",
                     type: "image/*",
-                    href: "https://cdn.jirayu.pw/jirayu_logo.png"
+                    href: "/profile.png"
                 })
             }),
             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("body", {

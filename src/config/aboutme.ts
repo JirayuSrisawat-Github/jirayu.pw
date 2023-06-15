@@ -33,6 +33,10 @@ export default [
     description: 'มะม่วง',
   },
   {
+    label: 'ขนมหวานที่ชอบ',
+    description: 'โดนัท',
+  },
+  {
     label: 'สิ่งที่ชอบ',
     description: 'อาจจะเป็นคุณ :)',
   },

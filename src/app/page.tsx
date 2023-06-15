@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <div className="bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]">
         <Image
-          src="https://cdn.jirayu.pw/jirayu_logo.png"
+          src="/profile.png"
           alt="Jirayu.pw Logo"
           className="rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]"
           priority={true}

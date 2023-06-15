@@ -4,14 +4,6 @@ const nextConfig = {
   output: "export",
   images: {
     unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.jirayu.pw",
-        port: "",
-        pathname: "/**",
-      },
-    ],
   },
 };
 

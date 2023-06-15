@@ -1,3 +1,5 @@
+rm -rf .next/ docs/
+
 yarn
 
 prettier -w "**/*.*"
