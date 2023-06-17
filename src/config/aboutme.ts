@@ -5,7 +5,7 @@ export default [
   },
   {
     label: 'ชื่อเล่น',
-    description: 'จิ',
+    description: 'ซูกัส',
   },
   {
     label: 'อายุ',
