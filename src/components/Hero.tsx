@@ -10,6 +10,7 @@ export default function Hero() {
         alt="Jirayu.pw Logo"
         className="rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]"
         priority={true}
+        quality={100}
         width={128}
         height={128}
       />

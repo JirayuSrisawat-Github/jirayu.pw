@@ -3,15 +3,15 @@
     "/page": [
       "static/chunks/webpack-e29d581d82547012.js",
       "static/chunks/bce60fc1-49ee79ad31766ac6.js",
-      "static/chunks/488-b2791935034e392d.js",
-      "static/chunks/main-app-118757623cbc9363.js",
-      "static/chunks/app/page-2b5e4950a780a25f.js"
+      "static/chunks/488-2398932694129a7b.js",
+      "static/chunks/main-app-acd156a49dfbce9b.js",
+      "static/chunks/app/page-48a28ad9218a88bd.js"
     ],
     "/layout": [
       "static/chunks/webpack-e29d581d82547012.js",
       "static/chunks/bce60fc1-49ee79ad31766ac6.js",
-      "static/chunks/488-b2791935034e392d.js",
-      "static/chunks/main-app-118757623cbc9363.js",
+      "static/chunks/488-2398932694129a7b.js",
+      "static/chunks/main-app-acd156a49dfbce9b.js",
       "static/css/108444e4ac7a798b.css",
       "static/chunks/app/layout-076d0fc51ad4a02e.js"
     ]

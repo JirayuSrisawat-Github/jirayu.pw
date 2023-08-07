@@ -9,7 +9,7 @@ export default [
   },
   {
     label: 'อายุ',
-    description: '13 ปี 1 เดือน',
+    description: '13 ปี 4 เดือน',
   },
   {
     label: 'วันเกิด',
