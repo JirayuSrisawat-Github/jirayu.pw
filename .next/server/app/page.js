@@ -188,7 +188,7 @@ module.exports = require("next/dist/shared/lib/utils/warn-once.js");
 
 /***/ }),
 
-/***/ 6618:
+/***/ 9799:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -252,7 +252,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4232)), "/root/jirayu.pw/src/app/layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9927)), "/root/jirayu.pw/src/app/layout.tsx"],
           
         }
       ]
@@ -295,17 +295,17 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 7430:
-/***/ (() => {
-
-
-
-/***/ }),
-
 /***/ 5832:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2553))
+
+/***/ }),
+
+/***/ 2538:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2980))
 
 /***/ }),
 
@@ -318,7 +318,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
+  "default": () => (/* binding */ page)
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
@@ -326,33 +326,43 @@ var jsx_runtime_ = __webpack_require__(6786);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(8421);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: external "next/dist/compiled/react"
+var react_ = __webpack_require__(8038);
+var react_default = /*#__PURE__*/__webpack_require__.n(react_);
 ;// CONCATENATED MODULE: ./src/components/Hero.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
-function Hero() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                src: "/profile.png",
-                alt: "Jirayu.pw Logo",
-                className: "rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]",
-                priority: true,
-                quality: 100,
-                width: 128,
-                height: 128
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                className: "my-2 text-2xl cursor-text",
-                children: "Jirayu Srisawat"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                className: "mt-2 text-xl cursor-text",
-                children: "จิรายุ ศรีสวัสดิ์"
-            })
-        ]
-    });
-}
+
+/* harmony default export */ const Hero = (()=>/*#__PURE__*/ jsx_runtime_.jsx((react_default()).Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+            className: "bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    "data-aos": "fade-down",
+                    "data-aos-delay": "0",
+                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: "/profile.png",
+                        alt: "Jirayu.pw Logo",
+                        className: "rounded-full transition cursor-pointer scale-[0.9] hover:scale-[1]",
+                        width: 128,
+                        height: 128
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                    className: "my-2 text-2xl cursor-text",
+                    "data-aos": "fade-down",
+                    "data-aos-delay": "50",
+                    children: "Jirayu Srisawat"
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                    className: "mt-2 text-xl cursor-text",
+                    "data-aos": "fade-down",
+                    "data-aos-delay": "100",
+                    children: "จิรายุ ศรีสวัสดิ์"
+                })
+            ]
+        })
+    }));
 
 ;// CONCATENATED MODULE: ./src/config/aboutme.ts
 /* harmony default export */ const aboutme = ([
@@ -401,69 +411,144 @@ function Hero() {
 ;// CONCATENATED MODULE: ./src/components/AboutMe.tsx
 
 
-function AboutMe() {
-    return /*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
+
+/* harmony default export */ const AboutMe = (()=>/*#__PURE__*/ jsx_runtime_.jsx((react_default()).Fragment, {
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
             className: "container mx-auto pb-16",
             children: [
                 /*#__PURE__*/ jsx_runtime_.jsx("h1", {
                     className: "text-4xl font-bold mx-4 mt-4 mb-1 cursor-text text-[#ffa42d]",
+                    "data-aos": "fade-right",
+                    "data-aos-delay": "0",
                     children: "About me"
                 }),
                 /*#__PURE__*/ jsx_runtime_.jsx("p", {
                     className: "mx-8 mb-4 text-xl cursor-text",
+                    "data-aos": "fade-right",
+                    "data-aos-delay": "50",
                     children: "เกี่ยวกับฉัน"
                 }),
-                aboutme.map((data, i)=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] bg-[#1f1f1f] scale-[0.98] hover:bg-[#ffa42d] hover:scale-[1]",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("label", {
-                                htmlFor: data.label,
-                                children: data.label
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                id: data.label,
-                                className: "mx-2",
-                                children: data.description
-                            })
-                        ]
+                aboutme.map((data, i)=>/*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        "data-aos": "fade-down",
+                        "data-aos-delay": `${i * 50}`,
+                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                            className: "shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] bg-[#1f1f1f] scale-[0.98] hover:bg-[#ffa42d] hover:scale-[1]",
+                            children: [
+                                /*#__PURE__*/ jsx_runtime_.jsx("label", {
+                                    htmlFor: data.label,
+                                    children: data.label
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                                    id: data.label,
+                                    className: "mx-2",
+                                    children: data.description
+                                })
+                            ]
+                        })
                     }, i))
             ]
         })
-    });
-}
+    }));
 
 ;// CONCATENATED MODULE: ./src/app/page.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
 
 
-function Home() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
+
+
+/* harmony default export */ const page = (()=>/*#__PURE__*/ (0,jsx_runtime_.jsxs)((react_default()).Fragment, {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(Hero, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(AboutMe, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(AboutMe, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: "/cloudflare.svg",
+                alt: "Cloudflare",
+                className: "transition mb-6 flex justify-center mx-auto hover:opacity-75",
+                width: 128,
+                height: 128
+            })
         ]
-    });
-} // #ffa42d
+    }));
 
 
 /***/ }),
 
-/***/ 4232:
+/***/ 2980:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ RootLayout),
-/* harmony export */   metadata: () => (/* binding */ metadata)
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8887);
-/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr___WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_tailwind_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9679);
-/* harmony import */ var _styles_tailwind_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_tailwind_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7770);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_2__);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (({ children  })=>{
+    react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(()=>{
+        aos__WEBPACK_IMPORTED_MODULE_2___default().init({
+            once: false
+        });
+    }, [
+        (aos__WEBPACK_IMPORTED_MODULE_2___default())
+    ]);
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((react__WEBPACK_IMPORTED_MODULE_1___default().Fragment), {
+        children: children
+    });
+});
+
+
+/***/ }),
+
+/***/ 9927:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ layout),
+  metadata: () => (/* binding */ metadata)
+});
+
+// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(6786);
+// EXTERNAL MODULE: ./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Mitr","arguments":[{"weight":"400","subsets":["latin"]}],"variableName":"mitr"}
+var layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr_ = __webpack_require__(8887);
+var layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr_default = /*#__PURE__*/__webpack_require__.n(layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr_);
+// EXTERNAL MODULE: ./src/styles/tailwind.css
+var tailwind = __webpack_require__(9679);
+// EXTERNAL MODULE: ./node_modules/aos/dist/aos.css
+var aos = __webpack_require__(8440);
+// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
+var module_proxy = __webpack_require__(1313);
+;// CONCATENATED MODULE: ./src/components/AOS.tsx
+
+const proxy = (0,module_proxy.createProxy)(String.raw`/root/jirayu.pw/src/components/AOS.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const AOS = (__default__);
+// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react/react.shared-subset.js
+var react_shared_subset = __webpack_require__(7887);
+;// CONCATENATED MODULE: ./src/app/layout.tsx
+
+
+
 
 
 
@@ -471,24 +556,27 @@ const metadata = {
     title: "Jirayu.pw",
     description: "Jirayu.pw | Introduce myself"
 };
-function RootLayout({ children  }) {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("html", {
-        lang: "th",
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("head", {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
-                    rel: "shortcut icon",
-                    type: "image/png",
-                    href: "/profile.png"
+/* harmony default export */ const layout = (({ children  })=>/*#__PURE__*/ jsx_runtime_.jsx(react_shared_subset.Fragment, {
+        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("html", {
+            lang: "th",
+            children: [
+                /*#__PURE__*/ jsx_runtime_.jsx("head", {
+                    children: /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "shortcut icon",
+                        type: "image/png",
+                        href: "/profile.png"
+                    })
+                }),
+                /*#__PURE__*/ jsx_runtime_.jsx("body", {
+                    className: "bg-gradient-to-tr from-zinc-950 to-zinc-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 ",
+                    style: (layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr_default()).style,
+                    children: /*#__PURE__*/ jsx_runtime_.jsx(AOS, {
+                        children: children
+                    })
                 })
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("body", {
-                className: "bg-gradient-to-tr from-zinc-950 to-zinc-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 " + (next_font_google_target_css_path_src_app_layout_tsx_import_Mitr_arguments_weight_400_subsets_latin_variableName_mitr___WEBPACK_IMPORTED_MODULE_2___default().className),
-                children: children
-            })
-        ]
-    });
-}
+            ]
+        })
+    }));
 
 
 /***/ }),
@@ -533,7 +621,7 @@ const __default__ = proxy.default;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [560], () => (__webpack_exec__(6618)));
+var __webpack_exports__ = __webpack_require__.X(0, [216], () => (__webpack_exec__(9799)));
 module.exports = __webpack_exports__;
 
 })();
