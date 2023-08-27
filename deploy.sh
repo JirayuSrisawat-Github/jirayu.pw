@@ -1,10 +1,8 @@
-rm -rf .next/ docs/
+rm -rf .next/
 
-yarn
-
+pnpm install
 prettier -w "**/*.*"
-
-yarn build
+pnpm build
 
 git add .
 git commit -m "Update"
