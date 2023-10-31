@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import React from "react";
 
@@ -16,7 +14,7 @@ export default () => (
         />
       </div>
       <h1
-        className="my-2 text-2xl cursor-text"
+        className="my-2 text-2xl cursor-text font-bold"
         data-aos="fade-down"
         data-aos-delay="50"
       >

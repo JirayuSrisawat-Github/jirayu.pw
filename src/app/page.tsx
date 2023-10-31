@@ -1,5 +1,3 @@
-"use client";
-
 import Hero from "@/components/Hero";
 import AboutMe from "@/components/AboutMe";
 import Image from "next/image";

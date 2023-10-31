@@ -2,9 +2,9 @@ import "@/styles/tailwind.css";
 import "aos/dist/aos.css";
 import AOS from "@/components/AOS";
 import React from "react";
-import { Mitr } from "next/font/google";
+import { Anuphan } from "next/font/google";
 
-const mitr = Mitr({
+const anuphan = Anuphan({
   weight: "400",
   subsets: ["latin"],
 });
@@ -22,7 +22,7 @@ export default ({ children }: Props) => (
       </head>
       <body
         className="bg-gradient-to-tr from-zinc-950 to-zinc-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 "
-        style={mitr.style}
+        style={anuphan.style}
       >
         <AOS>{children}</AOS>
       </body>

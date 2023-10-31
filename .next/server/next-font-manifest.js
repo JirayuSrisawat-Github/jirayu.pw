@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/data/data/com.termux/files/home/jirayu.pw/src/app/layout":["static/media/485f27021afb8926-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
