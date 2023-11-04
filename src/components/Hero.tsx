@@ -3,7 +3,7 @@ import React from "react";
 
 export default () => (
   <React.Fragment>
-    <div className="bg-gradient-to-br flex flex-col justify-center items-center w-full h-[45vh] from-[#ff35d5] to-[#a435ff]">
+    <div className="bg-hero bg-cover bg-no-repeat bg-top flex flex-col justify-center items-center w-full h-[20vh] sm:h-[75vh]">
       <div data-aos="fade-down" data-aos-delay="0">
         <Image
           src="/profile.png"
@@ -14,7 +14,7 @@ export default () => (
         />
       </div>
       <h1
-        className="my-2 text-2xl cursor-text font-bold"
+        className="text-4xl sm:text-6xl md:text-8xl py-0 sm:py-4 font-bold text-transparent bg-clip-text w-fit bg-top bg-hero bg-cover drop-shadow-md"
         data-aos="fade-down"
         data-aos-delay="50"
       >
