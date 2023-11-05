@@ -3,7 +3,7 @@ import React from "react";
 
 export default () => (
   <React.Fragment>
-    <div className="bg-hero bg-cover bg-no-repeat bg-top flex flex-col justify-center items-center w-full h-[20vh] sm:h-[75vh]">
+    <div className="bg-hero bg-cover bg-no-repeat bg-top flex flex-col justify-center items-center w-full min-h-[75vh]">
       <div data-aos="fade-down" data-aos-delay="0">
         <Image
           src="/profile.png"
