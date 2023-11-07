@@ -154,9 +154,9 @@ export default () => {
         ))}
         <div data-aos="fade-down" data-aos-delay={500}>
           <div className="shadow-lg cursor-pointer transition rounded mx-auto p-4 my-1 w-[95%] border border-[#ff00bf] bg-white/5 scale-[0.98] hover:bg-[#ff00bf] hover:border-[#ffa42d] hover:scale-[1]">
-            <label htmlFor='สิ่งที่ผมรัก'>สิ่งที่ผมรัก</label>
+            <label htmlFor='สิ่งที่ผมรัก'>You know what?</label>
             <p id='สิ่งที่ผมรัก' className="mx-2">
-              อาจจะเป็นคุณ
+              ความรักที่มีให้เธอมัน UNLIMITED
             </p>
           </div>
         </div>
