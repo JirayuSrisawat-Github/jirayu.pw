@@ -45,7 +45,7 @@ export default () => (
   <>
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
       {projects.map((item, index) => (
-        <div className="shadow w-full m-2 p-6 rounded-xl bg-white/5" key={index}>
+        <div className="shadow m-2 p-6 rounded-xl bg-white/5" key={index}>
           <Link
             isExternal
             showAnchorIcon

@@ -4,7 +4,7 @@ import NextLink from "next/link";
 export default () => (
   <>
     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      <div className="shadow w-full m-2 p-6 rounded-xl bg-white/5">
+      <div className="shadow m-2 p-6 rounded-xl bg-white/5">
         <p>Facebook</p>
         <Link
           isExternal
@@ -16,7 +16,7 @@ export default () => (
           @j1rayu.pw
         </Link>
       </div>
-      <div className="shadow w-full m-2 p-6 rounded-xl bg-white/5">
+      <div className="shadow m-2 p-6 rounded-xl bg-white/5">
         <p>Email</p>
         <Link
           isExternal
@@ -28,7 +28,7 @@ export default () => (
           jirayu@jirayu.pw
         </Link>
       </div>
-      <div className="shadow w-full m-2 p-6 rounded-xl bg-white/5">
+      <div className="shadow m-2 p-6 rounded-xl bg-white/5">
         <p>Discord</p>
         <Link
           isExternal
@@ -40,7 +40,7 @@ export default () => (
           @jirayu_pw
         </Link>
       </div>
-      <div className="shadow w-full m-2 p-6 rounded-xl bg-white/5">
+      <div className="shadow m-2 p-6 rounded-xl bg-white/5">
         <p>Instragram</p>
         <Link
           isExternal
