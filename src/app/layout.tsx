@@ -1,4 +1,5 @@
 import "@/styles/tailwind.css";
+import "aos/dist/aos.css";
 import { anuphan } from "@/lib/fonts";
 import Providers from "@/components/providers";
 import Navbar from "@/components/Navbar";

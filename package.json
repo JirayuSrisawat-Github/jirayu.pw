@@ -43,10 +43,10 @@
     "@nextui-org/theme": "latest",
     "@nextui-org/tooltip": "latest",
     "@nextui-org/user": "latest",
-    "aos": "^2.3.4",
+    "aos": "latest",
     "clsx": "latest",
     "framer-motion": "latest",
-    "luxon": "^3.4.4",
+    "luxon": "latest",
     "next": "latest",
     "next-themes": "latest",
     "react": "latest",
@@ -55,8 +55,8 @@
     "tailwind-merge": "latest"
   },
   "devDependencies": {
-    "@types/aos": "^3.0.7",
-    "@types/luxon": "^3.3.7",
+    "@types/aos": "latest",
+    "@types/luxon": "latest",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
