@@ -1,35 +1,26 @@
 import "@/styles/tailwind.css";
-import "aos/dist/aos.css";
-import AOS from "@/components/AOS";
-import React from "react";
-import { Anuphan } from "next/font/google";
+import { anuphan } from "@/lib/fonts";
+import Providers from "@/components/providers";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
-const anuphan = Anuphan({
-  weight: "400",
-  subsets: ["latin"],
-});
-
-export const metadata = {
-  title: "Jirayu.pw | จิรายุ ศรีสวัสดิ์",
-  description: "Jirayu.pw | Introduce myself",
-};
+export { metadata } from "@/lib/metadata";
 
 export default ({ children }: Props) => (
-  <React.Fragment>
-    <html lang="th">
-      <head>
-        <link rel="shortcut icon" type="image/png" href="/profile.png" />
-      </head>
-      <body
-        className="bg-gradient-to-tr from-zinc-950 to-slate-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 "
-        style={anuphan.style}
-      >
-        <AOS>{children}</AOS>
-      </body>
-    </html>
-  </React.Fragment>
+  <html className="!scroll-smooth" lang="en">
+    <body
+      style={anuphan.style}
+      className="min-h-screen w-full bg-gradient-to-br from-slate-200 to-white text-dark dark:from-zinc-950 dark:to-slate-900 dark:text-white"
+    >
+      <Providers>
+        <Navbar />
+        {children}
+        <Footer />
+      </Providers>
+    </body>
+  </html>
 );
 
-interface Props {
+type Props = {
   children: React.ReactNode;
-}
+};

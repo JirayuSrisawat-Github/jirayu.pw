@@ -21,7 +21,7 @@ export default () => (
         Jirayu Srisawat
       </h1>
       <p
-        className="mt-2 text-xl cursor-text"
+        className="mt-2 text-xl cursor-text !text-white"
         data-aos="fade-down"
         data-aos-delay="100"
       >
