@@ -10,7 +10,7 @@ const anuphan = Anuphan({
 });
 
 export const metadata = {
-  title: "Jirayu.pw",
+  title: "Jirayu.pw | จิรายุ ศรีสวัสดิ์",
   description: "Jirayu.pw | Introduce myself",
 };
 
@@ -21,7 +21,7 @@ export default ({ children }: Props) => (
         <link rel="shortcut icon" type="image/png" href="/profile.png" />
       </head>
       <body
-        className="bg-gradient-to-tr from-zinc-950 to-zinc-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 "
+        className="bg-gradient-to-tr from-zinc-950 to-slate-900 text-white w-full h-full box-border select-none scroll-smooth m-0 p-0 "
         style={anuphan.style}
       >
         <AOS>{children}</AOS>
