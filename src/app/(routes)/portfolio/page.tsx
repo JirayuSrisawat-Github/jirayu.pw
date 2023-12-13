@@ -12,7 +12,7 @@ const certificates = [
     },
     from: "22 Nov 2023",
     to: "24 Nov 2023",
-    image: "/certificates/sm-central_70.png",
+    image: "/certificates/sm-aya2_71.png",
   },
   {
     title: {
