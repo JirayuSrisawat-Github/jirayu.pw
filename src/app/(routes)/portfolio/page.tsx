@@ -11,7 +11,7 @@ const certificates = [
       href: "https://art71.vichakan.net",
     },
     from: "22 Nov 2023",
-    from: "24 Nov 2023",
+    to: "24 Nov 2023",
     image: "/certificates/sm-central_70.png",
   },
   {
@@ -20,7 +20,7 @@ const certificates = [
       href: "https://central70.sillapa.net",
     },
     from: "25 Jan 2023",
-    from: "27 Jan 2023",
+    to: "27 Jan 2023",
     image: "/certificates/sm-central_70.png",
   },
   {
@@ -29,7 +29,7 @@ const certificates = [
       href: "https://central70.sillapa.net",
     },
     from: "5 Sep 2022",
-    from: "9 Sep 2022",
+    to: "9 Sep 2022",
     image: "/certificates/sm-aya2_70.png",
   },
 ];
