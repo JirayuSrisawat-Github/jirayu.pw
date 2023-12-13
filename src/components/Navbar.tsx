@@ -26,6 +26,10 @@ export default () => {
       label: "ติดต่อเรา",
       href: "/contact",
     },
+    {
+      label: "แฟ้มสะสมผลงาน",
+      href: "/portfolio",
+    },
   ];
 
   return (
