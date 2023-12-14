@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     }
   ],
   openGraph: {
-    images: ["https://storage.jirayu.pw/00016-1315674954.png"]
+    images: ["https://storage.jirayu.pw/00016-1315674954.png"],
+    color: "#0070F0"
   }
 };
