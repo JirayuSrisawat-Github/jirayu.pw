@@ -11,6 +11,8 @@
   "dependencies": {
     "@nextui-org/button": "latest",
     "@nextui-org/dropdown": "latest",
+    "@nextui-org/image": "latest",
+    "@nextui-org/link": "latest",
     "@nextui-org/navbar": "latest",
     "aos": "latest",
     "clsx": "latest",
