@@ -29,7 +29,8 @@ const projects = [
     to: "Present",
     description:
       "เซิร์ฟเวอร์มายคราฟเอาชีวิตรอดพร้อมระบบต่างๆมากมาย จากทีม WaffleStudio",
-  },{
+  },
+  {
     title: {
       label: "Maki Service Shop",
       href: "https://maki-service.xyz",

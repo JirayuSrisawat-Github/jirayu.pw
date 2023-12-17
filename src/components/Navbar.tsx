@@ -41,7 +41,7 @@ export default () => {
       <NavbarContent justify="center">
         <NavbarBrand>
           <NextLink href="/" className="font-bold text-inherit uppercase">
-          จิรายุ
+            จิรายุ
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

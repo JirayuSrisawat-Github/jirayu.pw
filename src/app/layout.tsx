@@ -19,7 +19,14 @@ export default ({ children }: Props) => (
         <Footer />
       </Providers>
 
-      <script data-host="https://webmash.io" data-dnt="false" src="http://webmash.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+      <script
+        data-host="https://webmash.io"
+        data-dnt="false"
+        src="http://webmash.io/js/script.js"
+        id="ZwSg9rf6GA"
+        async
+        defer
+      ></script>
     </body>
   </html>
 );

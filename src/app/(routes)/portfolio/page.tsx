@@ -52,15 +52,15 @@ export default () => (
             {item.from} - {item.to}
           </p>
           <div className="flex justify-center">
-          <Image
-            alt="Certificate"
-            className="object-cover rounded-xl"
-            src={item.image}
-            width={512}
-            height={256}
-            isBlurred
-          />
-        </div>
+            <Image
+              alt="Certificate"
+              className="object-cover rounded-xl"
+              src={item.image}
+              width={512}
+              height={256}
+              isBlurred
+            />
+          </div>
         </div>
       ))}
     </div>
