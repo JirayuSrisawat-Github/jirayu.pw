@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "linear-gradient( 90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2) ), url(https://storage.jirayu.pw/00016-1315674954.png);",
+        hero: "linear-gradient( 90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2) ), url(/background.png);",
       },
     },
   },

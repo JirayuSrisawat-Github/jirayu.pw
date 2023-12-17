@@ -15,6 +15,7 @@
     "@nextui-org/link": "latest",
     "@nextui-org/navbar": "latest",
     "@nextui-org/react": "latest",
+    "@nextui-org/theme": "latest",
     "aos": "latest",
     "clsx": "latest",
     "framer-motion": "latest",

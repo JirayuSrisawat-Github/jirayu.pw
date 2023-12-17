@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://jirayu.pw"),
   title: "Jirayu Srisawat | จิรายุ ศรีสวัสดิ์",
   description: "เว็บไซต์แนะนำตัวเองของจิรายุ ศรีสวัสดิ์",
   icons: [
@@ -16,6 +17,6 @@ export const metadata: Metadata = {
     siteName: "Jirayu.pw",
     locale: "en_US",
     type: "website",
-    images: ["https://storage.jirayu.pw/00016-1315674954.png"],
+    images: ["/background.png"],
   },
 };
